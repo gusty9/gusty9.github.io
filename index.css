@@ -75,7 +75,7 @@ body{
 
 .section_text {
     font-family: 'Inconsolata', monospace;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 a {
@@ -152,7 +152,14 @@ a:hover {
 
 #courses {
     font-family: 'Inconsolata', monospace;
-    font-weight: 200;
+    font-weight: 300;
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 95%;
+        max-width: 100%;
+    }
 }
 
 .animated-icon1 {
@@ -235,7 +242,7 @@ img {
 
 ul {
     font-family: 'Inconsolata', monospace;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .filled_nav {
